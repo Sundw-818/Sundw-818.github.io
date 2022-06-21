@@ -14,4 +14,4 @@ Protein–protein interactions (PPI) are important for many biological processes
 
 [Download paper here](https://sundw-818.github.io/sundw.github.io/files/file2.pdf)
 
-Recommended citation: Daiwen S, Shijie L, Xinqi G. Review of multimer protein-protein interaction complex topology and structure prediction[J]. <i>Journal 1</i>.  2020, 29(10): 108707-1087071(3).
+Recommended citation: Daiwen S, Shijie L, Xinqi G. Review of multimer protein-protein interaction complex topology and structure prediction[J]. <i>Chinese Physics B</i>.  2020, 29(10): 108707-1087071(3).
