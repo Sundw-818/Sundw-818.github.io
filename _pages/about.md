@@ -26,4 +26,7 @@ My research recent interests are:
 
 ---
 
+### Publications
 
+* **Sun D**, Gong X. Tetramer protein complex interface residue pairs prediction with LSTM combined with graph representations[J]. <i>Biochimica et Biophysica Acta (BBA)-Proteins and Proteomics<.i>, 2020, 1868(11): 140504. [link](https://www.sciencedirect.com/science/article/abs/pii/S1570963920301515)
+* **Daiwen S**, Shijie L, Xinqi G. Review of multimer protein-protein interaction complex topology and structure prediction[J]. <i>Chinese Physics B<.i>, 2020, 29(10): 108707-108707. [link](https://iopscience.iop.org/article/10.1088/1674-1056/abb659/meta)
