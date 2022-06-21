@@ -6,11 +6,11 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "China"
+locale                   : "en-US"
 title                    : "Sundw's Homepage"
 title_separator          : "-"
 name                     : &name "Sun Daiwen"
-description              : &description "personal description"
+description              : &description "PhD Student"
 url                      : https://sundw-818.github.io/sundw.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Sundw-818/sundw.github.io"
@@ -83,8 +83,8 @@ author:
   name             : "Sun Daiwen"
   avatar           : "profiles.png"
   bio              : "PhD Candidate"
-  location         : "Beijing"
-  employer         : "Renmin University of China"
+  location         : "Beijing, China"
+  employer         : 
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=qIYH94UAAAAJ&hl=zh-CN"
   email            : "sundaiwen@ruc.edu.cn"
