@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-My name is Sun Daiwen (孙黛雯) and I am a second-year PhD Candidate in the Institute for Mathematics Sciences, Renmin University of China, advised by Prof. Gong Xinqi. I received my undergraduate degree from Sun Yat-Sen University in 2017, and got my master's degree in Renmin University of China in 2020. 
+My name is Sun Daiwen (孙黛雯) and I am a second-year PhD Candidate in the Institute for Mathematical Sciences, Renmin University of China, advised by Prof. Gong Xinqi. I received my undergraduate degree from Sun Yat-Sen University in 2017, and got my master's degree in Renmin University of China in 2020. 
 
 \[[Google Scholar](https://scholar.google.com/citations?user=qIYH94UAAAAJ&hl=zh-CN)\]&nbsp;
 \[[ResearchGate](https://www.researchgate.net/profile/Daiwen-Sun-2)\]&nbsp;
