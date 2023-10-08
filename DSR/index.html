@@ -1,0 +1,258 @@
+
+<html>
+
+<head>
+    <link rel="StyleSheet" href="style.css" type="text/css" media="all">
+    <title>DSR</title>
+    <meta property="og:title" content="DSR: Dynamical Surface Representation as Implicit Neural Networks for Protein">
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+<body>
+    <br>
+    <div class="center-div">
+        <span style="font-size:40px">DSR: Dynamical Surface Representation as Implicit Neural Networks for Protein</span>
+    </div>
+
+    <br>
+        <table align="center" width="800px">
+        <tbody>
+            <tr>
+                <td align="center" width="100px">
+                    <div class="center-div">
+                        <span style="font-size:22px"><a href="https://scholar.google.com/citations?user=qIYH94UAAAAJ&hl=zh-CN">Daiwen Sun<sup>1</sup></a></span>
+                    </div>
+                </td>
+
+                <td align="center" width="100px">
+                    <div class="center-div">
+                        <span style="font-size:22px"><a href="https://scholar.google.com/citations?user=vV9bZ4AAAAAJ&hl=zh-CN">He Huang<sup>1,2</sup></a></span>
+                    </div>
+                </td>
+
+                <td align="center" width="100px">
+                    <div class="center-div">
+                        <span style="font-size:22px"><a href="https://orcid.org/0009-0003-1450-5325">Yao Li<sup>2</sup></a></span>
+                    </div>
+                </td>
+
+                <td align="center" width="100px">
+                    <div class="center-div">
+                        <span style="font-size:22px"><a href="https://scholar.google.com/citations?user=JDAZPZ0AAAAJ&hl=zh-CN">Xinqi Gong<sup>1</sup>*</a></span>
+                    </div>
+                </td>
+
+                <td align="center" width="100px">
+                    <div class="center-div">
+                        <span style="font-size:22px"><a href="https://scholar.google.com/citations?user=RJ6SuR8AAAAJ&hl=zh-CN">Qiwei Ye<sup>2</sup>*</a></span>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table> 
+
+    <br>
+     <table align="center" width="700px">
+        <tbody>
+            <tr>
+                <td align="center" width="100px">
+                    <div class="center-div">
+                        <span style="font-size:22px"><sup>1</sup> Renmin University of China &nbsp; &nbsp; <sup>2</sup> Beijing Academy of Artificial Intelligence</span>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <table align="center" width="600px">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="center-div">
+                        <a href="#"><img src="resources/images/overview.png" width="1000px"></a><br>
+                    </div>
+                    <div class="center-div">
+                            <span style="font-size:14px"><i>Overview of Our DSR.</i></span>
+                    </div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <br><br>
+    <hr>
+    <div class="center-div">
+        <h1>Abstract</h1>
+    </div>
+    <p style="text-align:justify">
+        We propose a novel approach to modeling protein dynamics using an implicit neural representation model of protein surface in 3D + time domain. Our method utilizes the zero-level set of signed distance functions (SDFs) to represent protein surfaces, enabling temporally and spatially continuous representations of protein dynamics. Our experimental results demonstrate that our model accurately represents protein dynamic trajectories, and has the ability to interpolate and extrapolate in 3D + time domain. Importantly, our study is the first to introduce this method and the first to successfully model large protein dynamics. This approach offers a promising alternative to current methods, overcoming the limitations of first-principles-based and deep learning methods, and provides a more scalable and efficient approach to modeling protein dynamics. Additionally, our surface representation approach simplifies calculations and allows for the identification of movement trends and amplitudes of protein domains, making it a valuable tool for protein dynamics research. 
+    </p>
+    <br><br>
+
+
+    <hr>
+    <div class="center-div">
+        <h1 id="paper">Paper and Code</h1>
+    </div>
+    <table align="center" width="600px">
+
+        <tbody>
+            <tr>
+                <td>
+                    <img class="layered-paper-big" style="height:175px" src="resources/images/page1.png">
+                </td>
+                <td>
+                    <span style="font-size:14pt">Daiwen Sun; He Huang; Yao Li; Xinqi Gong; Qiwei Ye</span>
+                    <br><br>
+                    <b><span style="display:inline-block;width:600px;font-size:14pt">DSR: Dynamical Surface Representation as Implicit Neural Networks for Protein</span></b>
+                    <br><br>
+                    <span style="font-size:14pt">NeurIPS 2023</span>
+                    <br><br>
+                    <span style="font-size:14pt">To be published</span>
+                    <span style="font-size:20px">
+                        <!-- <a href="https://arxiv.org/abs/2103.08271">[arXiv]</a> &nbsp; &nbsp; -->
+                        <a href="https://github.com/Sundw-818/DSR">[GitHub]</a> &nbsp; &nbsp;
+                        <a href="https://github.com/Sundw-818/DSR">[Project]</a> &nbsp; &nbsp;
+                    </span>
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+
+
+    <hr>
+    <div class="center-div">
+        <h1 id="paper">Results</h1>
+    </div>
+
+    <p style="text-align:justify">
+        Here we show some videos of predicted samples, which are ground truth, prediction, comparision of ground truth and prediction. In the comparison, the gray is ground truth and the purple is prediction.
+    </p>
+
+    <div class="video-row">
+        <div class="video-container">
+            <video controls>
+                <source src="resources/images/abeta_gt.mp4" type="video/mp4">
+            </video>
+            <div class="video-title">Abeta ground truth</div>
+        </div>
+        <div class="video-container">
+            <video controls>
+                <source src="resources/images/abeta_pred.mp4" type="video/mp4">
+            </video>
+            <div class="video-title">Abeta prediction</div>
+        </div>
+        <div class="video-container">
+            <video controls>
+                <source src="resources/images/abeta_compare.mp4" type="video/mp4">
+            </video>
+            <div class="video-title">Abeta comparison</div>
+        </div>
+    </div>
+    <br />
+    <br />
+
+
+    <div class="video-row">
+        <div class="video-container">
+            <video controls>
+                <source src="resources/images/DIMS_gt.mp4" type="video/mp4">
+            </video>
+            <div class="video-title">DIMS ground truth</div>
+        </div>
+        <div class="video-container">
+            <video controls>
+                <source src="resources/images/DIMS_pred.mp4" type="video/mp4">
+            </video>
+            <div class="video-title">DIMS prediction</div>
+        </div>
+        <div class="video-container">
+            <video controls>
+                <source src="resources/images/DIMS_compare.mp4" type="video/mp4">
+            </video>
+            <div class="video-title">DIMS comparison</div>
+        </div>
+    </div>
+    <br />
+    <br />
+
+    <div class="video-row">
+        <div class="video-container">
+            <video controls>
+                <source src="resources/images/ifabp_gt.mp4" type="video/mp4">
+            </video>
+            <div class="video-title">I-FABP ground truth</div>
+        </div>
+        <div class="video-container">
+            <video controls>
+                <source src="resources/images/ifabp_pred.mp4" type="video/mp4">
+            </video>
+            <div class="video-title">I-FABP prediction</div>
+        </div>
+        <div class="video-container">
+            <video controls>
+                <source src="resources/images/ifabp_compare.mp4" type="video/mp4">
+            </video>
+            <div class="video-title">I-FABP comparison</div>
+        </div>
+    </div>
+    <br />
+    <br />
+
+
+    <div class="video-row">
+        <div class="video-container">
+            <video controls>
+                <source src="resources/images/GPCR_gt_2000.mp4" type="video/mp4">
+            </video>
+            <div class="video-title">GPCR ground truth</div>
+        </div>
+        <div class="video-container">
+            <video controls>
+                <source src="resources/images/GPCR_pred.mp4" type="video/mp4">
+            </video>
+            <div class="video-title">GPCR prediction</div>
+        </div>
+        <div class="video-container">
+            <video controls>
+                <source src="resources/images/GPCR_compare.mp4" type="video/mp4">
+            </video>
+            <div class="video-title">GPCR comparison</div>
+        </div>
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <hr>
+    <table align="center" width="980px">
+        <tbody>
+            <tr>
+                <td>
+                    <left>
+                        <div class="center-div">
+                            <h1>Acknowledgements</h1>
+                        </div>
+                        <div class="center-div">
+                            Qiwei Ye and Xinqi Gong are the corresponding authors. This work was supported by Beijing Academy of Artificial Intelligence and Mathematical Intelligence Application Laboratory, MIALAB, Institute for Mathematical Sciences, Renmin University of China.
+                            The website is modified from this <a href="https://walsvid.github.io/Pixel2MeshPlusPlus/">template</a>.
+                        </div>
+                    </left>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+
+</body>
+
+</html>
